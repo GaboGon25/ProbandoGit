@@ -29,24 +29,37 @@
         private void InitializeComponent()
         {
             checkBox1 = new CheckBox();
+            label1 = new Label();
             SuspendLayout();
             // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(509, 138);
+            checkBox1.Location = new Point(478, 109);
+            checkBox1.Margin = new Padding(2, 2, 2, 2);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(159, 36);
+            checkBox1.Size = new Size(121, 29);
             checkBox1.TabIndex = 0;
             checkBox1.Text = "checkBox1";
             checkBox1.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(113, 131);
+            label1.Name = "label1";
+            label1.Size = new Size(59, 25);
+            label1.TabIndex = 1;
+            label1.Text = "label1";
+            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1187, 450);
+            ClientSize = new Size(913, 352);
+            Controls.Add(label1);
             Controls.Add(checkBox1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -56,5 +69,6 @@
         #endregion
 
         private CheckBox checkBox1;
+        private Label label1;
     }
 }
